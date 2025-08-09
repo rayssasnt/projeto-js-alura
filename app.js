@@ -12,7 +12,7 @@ function exibirTXTnatela(tag , texto){
 }
 function mensagem(){
     exibirTXTnatela('h1' , 'Jogo do número secreto');
-    exibirTXTnatela('p','Ecolha um número de 1 a 10');
+    exibirTXTnatela('p','Ecolha um número de 1 a 100');
 
 }
 
@@ -46,7 +46,7 @@ function verificarChute(){
 }
 
 function gerar_num(){
-    return parseInt(Math.random() * 10 +1)
+    return parseInt(Math.random() * 100 +1)
     
 }
 
